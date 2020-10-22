@@ -1,0 +1,47 @@
+
+// font weights
+$light: 100;
+$regular: 400;
+$bold: 700;
+
+
+// font styling
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-size: 1.8rem;
+$base-font-weight: $regular;
+$base-line-height: 1.6;
+
+
+// global colours 
+$cream: #edeec9;
+$brown: #545444;
+$light-green: #bfd8bd;
+$dark-green: #98c9a3;
+
+$primary: $light-green;
+$primary--dark: $dark-green;
+$secondary: $cream;
+$link: #77BFA3;
+$link--dark: #56af8c;
+
+
+// universal units
+$small: 10px;
+$medium: 20px;
+$large: 40px;
+$xlarge: 80px;
+
+// universal border-radius
+$rounded: 5px;
+
+// universal transition speed
+$base-speed: 0.3s;
+
+
+// media query breakpoints
+$phone-width: 550px;
+$tablet-width: 768px;
+$laptop-width: 1024px;
+$desktop-width: 1400px;
+
+

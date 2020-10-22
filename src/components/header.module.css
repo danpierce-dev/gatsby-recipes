@@ -1,0 +1,25 @@
+
+:root {
+    --small: 10px;
+}
+
+
+.header {
+    background: #fff;
+    box-shadow: 2px 2px 4px #D2D2D2;
+    left: 0;
+    padding: var(--small) 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+}
+
+

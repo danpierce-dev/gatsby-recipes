@@ -1,0 +1,15 @@
+
+a { 
+    color: $link; 
+    cursor: pointer;
+    text-decoration: none;
+    transition: all ease-in-out $base-speed;
+}
+a:active, a:hover {
+    border-color: $link--dark;
+    color: $link--dark;
+    outline: 0;
+}
+a:focus { outline: 1px dotted $link--dark; }
+
+

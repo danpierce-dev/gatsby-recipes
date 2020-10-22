@@ -1,0 +1,68 @@
+
+.container {
+    margin: $medium auto;
+    position: relative;
+    width: 90%;
+}
+.container--narrow {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    @include breakpoint-s {
+        align-items: flex-start; // prevents vertical stretching
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.flex-grid { justify-content: flex-start; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5 {
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+@include breakpoint-s {
+    .col-2, .col-3, .col-4, .col-5 {
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: calc(50% - 10px);
+        &:nth-child(even) { margin-right: 0; }
+    }
+    .col-two-thirds { width: 70%; }
+    .col-one-third { width: 25%; }
+}
+
+@include breakpoint-m {
+    .col-3, .col-4, .col-5 {
+        width: calc(33.5% - 16px);
+        &:nth-child(even) { margin-right: 20px; } 
+        &:nth-child(3n+3) { margin-right: 0; } 
+    }   
+}
+
+@include breakpoint-l {
+    .col-4, .col-5 {
+        width: calc(25% - 16px);
+        &:nth-child(3n+3) { margin-right: 20px; } 
+        &:nth-child(4n+4) { margin-right: 0; } 
+    }
+}
+
+@include breakpoint-xl {
+    .col-5 {
+        width: calc(20% - 20px);
+        &:nth-child(4n+4) { margin-right: 20px; } 
+        &:nth-child(5n+5) { margin-right: 0; } 
+    }
+}
+
+

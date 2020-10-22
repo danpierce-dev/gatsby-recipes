@@ -1,0 +1,33 @@
+
+:root {
+    --small: 10px;
+    --medium: 20px;
+    --large: 40px;
+    --xlarge: 80px;
+    
+    --primary: #edeec9;
+    --primary--dark: #98c9a3;
+    --secondary: #edeec9;
+    --link: #77BFA3;
+    --link--dark: #56af8c;
+}
+
+footer {
+    background: var(--primary);
+    font-size: 1.6rem;
+    padding: var(--medium) 0;
+}
+
+.nav { display: inline-block; }
+
+.inlineList {
+    margin: 0 0 0 var(--medium);
+    padding: 0;
+}
+
+.inlineItem {
+    display: inline-block;
+    margin: 0 var(--small);
+}
+
+
