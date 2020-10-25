@@ -24,7 +24,7 @@ export const query = graphql`
 const Recipe = (props) => {
     return (
         <Layout>
-            <span>{props.data.markdownRemark.frontmatter.title}</span>
+            <span>-parent page here- {props.data.markdownRemark.frontmatter.title}</span>
 
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} class="container--narrow">
             </div>

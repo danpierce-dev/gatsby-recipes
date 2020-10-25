@@ -1,7 +1,7 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-<h1 align="center">
-  deepee recipes
-</h1>
+<div style="text-align:center">
+  <h1>deepee recipes</h1>
 
-Demo project created with Gatsby.js (hello-world starter)
+  <p>Demo project created with Gatsby.js (hello-world starter)</p>
+</div>
+
